@@ -71,7 +71,7 @@ DELETE FROM Products_table
 WHERE stock = 0;
 
 SELECT productName FROM Products_table
-WHERE price >= 500 OR price <= 2000;
+WHERE price >= 500 AND price <= 2000;
 
 SELECT
 MAX(price) AS highest_price ,
