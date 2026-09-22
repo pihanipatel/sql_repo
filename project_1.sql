@@ -42,7 +42,7 @@ DELETE FROM Orders_table
 WHERE OrderID = 4;
 
 SELECT *  FROM Orders_table
-WHERE OrderDate >=CURDATE() - INTERVAL 30 DAY;
+WHERE OrderDate <='2026-9-22';
 
 SELECT
 MAX(TotalAmount) AS highest_amount ,
